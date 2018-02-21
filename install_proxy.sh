@@ -17,3 +17,6 @@ sudo chmod +x add_to_srartup.sh
 
 echo Run add_to_srartup.sh...
 ./add_to_srartup.sh
+
+echo Rebooting...
+sudo reboot
