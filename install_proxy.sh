@@ -1,12 +1,19 @@
 #!/bin/sh
 
+echo updating...
 apt update
+
+echo install packages...
 apt -y install git screen python-twisted
 
+echo git clone...
 git clone https://github.com/CrateC/eth-proxy.git
 
+echo cd eth-proxy...
 cd eth-proxy
 
+echo Make executable...
 sudo chmod +x add_to_srartup.sh
 
+echo Run add_to_srartup.sh...
 ./add_to_srartup.sh
