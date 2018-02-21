@@ -8,7 +8,9 @@
 # Short-Description: eth-proxy
 # Description:       run eth-proxy
 ### END INIT INFO
+
 cd /home/user/eth-proxy/
+
 #Make sure no other pesky screens are running
 killall screen
 screen -wipe
