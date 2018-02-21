@@ -14,5 +14,5 @@ killall screen
 screen -wipe
 sleep 1
 
-echo Starting eth-proxy.py...
+echo ">>" ETH-PROXY SETUP :: Starting eth-proxy.py...
 screen -Ldm python /home/user/eth-proxy/eth-proxy.py
