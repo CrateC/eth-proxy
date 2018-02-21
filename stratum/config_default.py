@@ -135,32 +135,62 @@ PEERS = [
 #   - or use automatically numbering(integer) based on IP of miner
 ###
 
-# Default settings for proxy
+# # Default settings for proxy
+
+# # Host and port for your workers
+# HOST = "0.0.0.0"
+# PORT = 8080
+
+# # Coin address where money goes.
+# WALLET = 'XXXXXX'
+
+# # It's useful for individually monitoring and statistic.
+# ENABLE_WORKER_ID = False
+
+# # On DwarfPool you have option to monitor your workers via email.
+# # If WORKER_ID is enabled, you can monitor every worker/rig separately.
+# MONITORING = False
+# MONITORING_EMAIL = 'mail@example.com'
+
+# # Main pool
+# POOL_HOST = 'eth-eu.dwarfpool.com'
+# POOL_PORT = 8008
+
+# # Failover pool.
+# POOL_FAILOVER_ENABLE = False
+# POOL_HOST_FAILOVER1 = 'eth-ru.dwarfpool.com'
+# POOL_PORT_FAILOVER1 = 8008
+# POOL_HOST_FAILOVER2 = 'eth-us.dwarfpool.com'
+# POOL_PORT_FAILOVER2 = 8008
+# POOL_HOST_FAILOVER3 = 'eth-hk.dwarfpool.com'
+# POOL_PORT_FAILOVER3 = 8008
+
+# Select Ethereum ETH or Expanse EXP
+COIN = "ETH"
 
 # Host and port for your workers
 HOST = "0.0.0.0"
-PORT = 8080
+PORT = 2020
 
-# Coin address where money goes.
-WALLET = 'XXXXXX'
+# Coin address where money goes
+WALLET = "0x7333eE9ACcDD85c643e5c1e0DAe5f24EDD8EF531"
 
-# It's useful for individually monitoring and statistic.
-ENABLE_WORKER_ID = False
-
-# On DwarfPool you have option to monitor your workers via email.
-# If WORKER_ID is enabled, you can monitor every worker/rig separately.
-MONITORING = False
-MONITORING_EMAIL = 'mail@example.com'
+# It's useful for individually monitoring and statistic
+ENABLE_WORKER_ID = True
 
 # Main pool
-POOL_HOST = 'eth-eu.dwarfpool.com'
-POOL_PORT = 8008
+POOL_HOST = "eth.2miners.com"
+POOL_PORT = 2020
 
-# Failover pool.
+# Failover pool
 POOL_FAILOVER_ENABLE = False
-POOL_HOST_FAILOVER1 = 'eth-ru.dwarfpool.com'
-POOL_PORT_FAILOVER1 = 8008
-POOL_HOST_FAILOVER2 = 'eth-us.dwarfpool.com'
-POOL_PORT_FAILOVER2 = 8008
-POOL_HOST_FAILOVER3 = 'eth-hk.dwarfpool.com'
-POOL_PORT_FAILOVER3 = 8008
+
+# POOL_HOST_FAILOVER1 = ""
+# POOL_PORT_FAILOVER1 = 8002
+
+# Logging
+LOG_TO_FILE = True
+
+# Enable debug
+DEBUG = False
+
