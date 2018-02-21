@@ -17,6 +17,3 @@ sudo chmod +x add_to_srartup.sh
 
 echo ">>" ETH-PROXY SETUP :: Run add_to_srartup.sh...
 ./add_to_srartup.sh
-
-echo ">>" ETH-PROXY SETUP :: Rebooting...
-sudo reboot
