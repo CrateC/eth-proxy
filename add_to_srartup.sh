@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Copy autorun script so /etc/init.d/
-sudo cp eth-proxy/local.autostart /etc/init.d/
+sudo cp local.autostart /etc/init.d/
 
 # Make executable
 sudo chmod +x /etc/init.d/local.autostart
