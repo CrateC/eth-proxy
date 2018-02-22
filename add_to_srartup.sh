@@ -11,8 +11,3 @@ sudo chmod +x /etc/init.d/local.autostart
 # Configure to autostart at startup
 echo :: ETH-PROXY SETUP :: Configure to autostart at startup
 sudo update-rc.d local.autostart defaults 80
-
-sleep 1
-
-echo :: ETH-PROXY SETUP :: Rebooting...
-sudo reboot
