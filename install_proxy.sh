@@ -1,10 +1,10 @@
 #!/bin/sh
 
 echo ":: ETH-PROXY SETUP :: updating..."
-apt update
+sudo apt-get update
 
 echo ":: ETH-PROXY SETUP :: install packages..."
-apt -y install git screen python-twisted
+sudo apt-get -y install git screen python-twisted
 
 echo ":: ETH-PROXY SETUP :: git clone..."
 git clone https://github.com/CrateC/eth-proxy.git
