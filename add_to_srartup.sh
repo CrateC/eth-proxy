@@ -15,4 +15,4 @@ sudo update-rc.d local.autostart defaults 80
 sleep 1
 
 echo :: ETH-PROXY SETUP :: Rebooting...
-reboot
+sudo reboot
